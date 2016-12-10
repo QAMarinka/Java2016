@@ -1,7 +1,6 @@
 package week1.day1.Week1Home.Homework;
 
 
-
 import java.util.Scanner;
 
 /**
@@ -15,12 +14,12 @@ public class Task1Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the current hour (0-24)");
-            int hour = sc.nextInt();
+        int hour = sc.nextInt();
 
-        if (hour >= 9 && hour <=18) {
+        if (hour >= 9 && hour <= 18) {
             System.out.println("I am at work");
-        } else{
+        } else {
             System.out.println("I have a rest");
         }
-        }
     }
+}

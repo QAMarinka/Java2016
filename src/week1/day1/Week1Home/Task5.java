@@ -19,9 +19,9 @@ public class Task5 {
         System.out.println("Enter number c");
         int c = sc.nextInt();
 
-        if(a == b && a == c && c == b){
+        if (a == b && a == c && c == b) {
             System.out.println("All numbers are equal");
-        } else if (a == b || a == c || c == b){
+        } else if (a == b || a == c || c == b) {
             System.out.println("One pair is equal");
         } else {
             System.out.println("No equal pair");

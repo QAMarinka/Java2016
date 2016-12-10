@@ -22,8 +22,8 @@ public class Task7Main {
         float res = first / second;
         float res2 = first % second;
 
-        if( res2 == 0){
-            System.out.println( "True " + Math.floor(res)+  " Rest is " + res2);
+        if (res2 == 0) {
+            System.out.println("True " + Math.floor(res) + " Rest is " + res2);
         } else {
             System.out.println("False " + Math.floor(res) + " Rest is " + res2);
         }

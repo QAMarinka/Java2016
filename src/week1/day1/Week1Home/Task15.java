@@ -17,14 +17,14 @@ public class Task15 {
         System.out.println("Enter area of square");
         double rectangleArea = sc.nextDouble();
 
-        double circleRadius = Math.sqrt(circleArea/Math.PI);
+        double circleRadius = Math.sqrt(circleArea / Math.PI);
         double rectangleSide = Math.sqrt(rectangleArea);
 
-        if (circleRadius <= rectangleSide/2){
+        if (circleRadius <= rectangleSide / 2) {
             System.out.println("Circle is in rectangle");
             //a
         }
-        if(Math.sqrt(2*Math.pow(rectangleSide,2))<= circleRadius*2){
+        if (Math.sqrt(2 * Math.pow(rectangleSide, 2)) <= circleRadius * 2) {
             System.out.println("Rectangle is in circle");
             //b
 

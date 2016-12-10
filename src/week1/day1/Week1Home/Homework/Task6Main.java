@@ -20,7 +20,7 @@ public class Task6Main {
 
         int sum = first + second;
 
-        if (sum >= 11 && sum <=19){
+        if (sum >= 11 && sum <= 19) {
             System.out.println("Sum is " + sum);
         }
     }

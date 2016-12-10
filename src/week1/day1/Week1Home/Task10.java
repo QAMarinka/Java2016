@@ -21,7 +21,7 @@ public class Task10 {
         int conversationCost = duration * 2;
         double discount = conversationCost * 0.8;
 
-        if (weekday >=6){
+        if (weekday >= 6) {
             System.out.println("You have discount and your cost is " + discount);
         } else {
             System.out.println(conversationCost);

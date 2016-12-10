@@ -12,7 +12,7 @@ public class Task2Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter first number");
-                int a = sc.nextInt();
+        int a = sc.nextInt();
 
         System.out.println("Enter second number");
         int b = sc.nextInt();
@@ -20,21 +20,21 @@ public class Task2Main {
         System.out.println("Enter third number");
         int c = sc.nextInt();
 
-       // int min = Math.min(Math.min(a,b),c);//
+        // int min = Math.min(Math.min(a,b),c);//
 
-          if (a > b && a > c) {
-              System.out.println("A is max and =" + a);
-          } else if (b > a && b > c) {
-              System.out.println("B is max and =" + b);
-          } else if (c > a && c > b) {
-              System.out.println("C is max and =" + c);
-          }
-          if (a < b && a < c) {
-              System.out.println("A is min and =" + a);
-          } else if (b < a && b < c) {
-              System.out.println("B is min and =" + b);
-          } else if (c < a && c < b) {
-              System.out.println("C is min and =" + c);
-       }
+        if (a > b && a > c) {
+            System.out.println("A is max and =" + a);
+        } else if (b > a && b > c) {
+            System.out.println("B is max and =" + b);
+        } else if (c > a && c > b) {
+            System.out.println("C is max and =" + c);
+        }
+        if (a < b && a < c) {
+            System.out.println("A is min and =" + a);
+        } else if (b < a && b < c) {
+            System.out.println("B is min and =" + b);
+        } else if (c < a && c < b) {
+            System.out.println("C is min and =" + c);
+        }
     }
 }

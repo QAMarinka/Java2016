@@ -18,13 +18,13 @@ public class Task9 {
         System.out.println("Enter your weight");
         double weight = sc.nextDouble();
 
-        if (height - weight == 110){
+        if (height - weight == 110) {
             System.out.println("You have ideal weight");
-        } else if (height - weight > 110){
+        } else if (height - weight > 110) {
             System.out.println("You can go to MacDonalds right now");
-        } else if(height - weight < 110){
+        } else if (height - weight < 110) {
             System.out.println("You need to loose weight");
         }
 
-            }
+    }
 }

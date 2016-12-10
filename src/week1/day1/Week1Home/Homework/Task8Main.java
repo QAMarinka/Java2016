@@ -25,9 +25,10 @@ public class Task8Main {
         int lastA = a % 10;
         int lastB = b % 10;
 
-        if (lastA == lastB){
+        if (lastA == lastB) {
             System.out.println("True");
-      }else {
+        } else {
             System.out.println("False");
+        }
+    }
 }
-}}

@@ -15,7 +15,7 @@ public class Task8 {
         double purchase = sc.nextDouble();
 
         double discount = purchase * 0.9;
-        if (purchase > 1000){
+        if (purchase > 1000) {
             System.out.println("You have discount 10 % and the sum to pay is " + discount);
         } else {
             System.out.println("You have no discount");

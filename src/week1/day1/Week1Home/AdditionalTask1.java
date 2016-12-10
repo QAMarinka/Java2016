@@ -24,11 +24,11 @@ public class AdditionalTask1 {
         double bPow = Math.pow(b, 2);
         double cPow = Math.pow(c, 2);
 
-        if(aPow == bPow + cPow){
+        if (aPow == bPow + cPow) {
             System.out.println("Rectangle");
-        } else if(bPow == aPow + cPow) {
+        } else if (bPow == aPow + cPow) {
             System.out.println("Rectangle");
-        } else if(cPow == aPow + bPow) {
+        } else if (cPow == aPow + bPow) {
             System.out.println("Rectangle");
         } else {
             System.out.println("Not Rectangle");

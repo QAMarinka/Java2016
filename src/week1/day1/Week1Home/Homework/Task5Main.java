@@ -17,10 +17,10 @@ public class Task5Main {
         System.out.println("Enter second number");
         int second = sc.nextInt();
 
-        if (first > second){
+        if (first > second) {
             System.out.println(first - second);
-        } else if (second > first){
-            System.out.println( first + second);
+        } else if (second > first) {
+            System.out.println(first + second);
         }
     }
 }

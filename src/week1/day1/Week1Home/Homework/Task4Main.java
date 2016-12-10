@@ -1,7 +1,6 @@
 package week1.day1.Week1Home.Homework;
 
 
-
 import java.util.Scanner;
 
 /**
@@ -16,11 +15,10 @@ public class Task4Main {
 
         float number = sc.nextFloat();
 
-        if (number > 0 && number < 1){
+        if (number > 0 && number < 1) {
             System.out.println("True");
         } else {
             System.out.println("False");
         }
-
     }
 }

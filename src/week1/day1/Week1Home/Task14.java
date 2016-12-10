@@ -22,10 +22,10 @@ public class Task14 {
         int fifth = number / 10 % 10;
         int six = number % 10;
 
-        int firstPart = first + second +third;
+        int firstPart = first + second + third;
         int secondPart = forth + fifth + six;
 
-        if (firstPart == secondPart){
+        if (firstPart == secondPart) {
             System.out.println("Lucky number");
         } else {
             System.out.println("Maybe next time");

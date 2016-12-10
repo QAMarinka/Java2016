@@ -16,9 +16,8 @@ public class Task3Main {
         double number = sc.nextDouble();
 
         double duplicateNumber = number * 2;
-        if (number % 7 == 0){
+        if (number % 7 == 0) {
             System.out.println("This number is / 7 so it will be duplicated = " + duplicateNumber);
         }
-
     }
 }

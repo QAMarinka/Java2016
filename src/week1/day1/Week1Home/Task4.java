@@ -18,12 +18,11 @@ public class Task4 {
 
         speed2 = speed2 * 3.6;
 
-        if(speed1 > speed2){
+        if (speed1 > speed2) {
             System.out.println("Speed in km is bigger");
-        }else {
+        } else {
             System.out.println("Speed in m is bigger");
         }
-
 
 
     }
